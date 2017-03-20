@@ -1,0 +1,1 @@
+requires 'Cache::Memcached::Fast::Safe', 0;

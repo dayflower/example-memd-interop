@@ -1,0 +1,6 @@
+.idea/
+build/
+.gradle/
+/log/
+/perl/local/
+.perl-version

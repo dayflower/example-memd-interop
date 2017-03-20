@@ -1,0 +1,53 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Cache-Memcached-Fast-0.23
+    pathname: K/KR/KROKI/Cache-Memcached-Fast-0.23.tar.gz
+    provides:
+      Cache::Memcached::Fast 0.23
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
+  Cache-Memcached-Fast-Safe-0.05
+    pathname: K/KA/KAZEBURO/Cache-Memcached-Fast-Safe-0.05.tar.gz
+    provides:
+      Cache::Memcached::Fast::Safe 0.05
+    requirements:
+      Cache::Memcached::Fast 0.23
+      Digest::SHA 0
+      Module::Build 0.38
+      POSIX::AtFork 0.02
+      URI::Escape::XS 0.09
+      parent 0
+  POSIX-AtFork-0.02
+    pathname: G/GF/GFUJI/POSIX-AtFork-0.02.tar.gz
+    provides:
+      POSIX::AtFork 0.02
+    requirements:
+      Devel::PPPort 3.19
+      ExtUtils::MakeMaker 6.42
+      ExtUtils::ParseXS 2.21
+      Test::More 0.88
+      Test::SharedFork 0
+      XSLoader 0.1
+      perl 5.008001
+  Test-SharedFork-0.35
+    pathname: E/EX/EXODIST/Test-SharedFork-0.35.tar.gz
+    provides:
+      Test::SharedFork 0.35
+      Test::SharedFork::Array undef
+      Test::SharedFork::Scalar undef
+      Test::SharedFork::Store undef
+    requirements:
+      ExtUtils::MakeMaker 6.64
+      File::Temp 0
+      Test::Builder 0.32
+      Test::Builder::Module 0
+      Test::More 0.88
+      perl 5.008_001
+  URI-Escape-XS-0.13
+    pathname: D/DA/DANKOGAI/URI-Escape-XS-0.13.tar.gz
+    provides:
+      URI::Escape::XS 0.13
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0

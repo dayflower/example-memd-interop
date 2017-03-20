@@ -1,0 +1,20 @@
+group 'org.example.dayflower'
+version '0.0.1-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+mainClassName = 'org.example.dayflower.memdinterop.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.16.14'
+    compile 'org.slf4j:slf4j-simple:1.7.25'
+    compile 'net.spy:spymemcached:2.12.2'
+}
